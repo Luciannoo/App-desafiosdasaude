@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cadastro"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editIdUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Usuário"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editIdDesafio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Desafio"
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnParticipar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Participar do Desafio" />
+</LinearLayout>

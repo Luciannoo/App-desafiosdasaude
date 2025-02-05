@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cadastrodesafio"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo Nome -->
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#140A0A"
+        android:hint="Nome do Desafio"
+        android:textColor="#954646"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Campo Descrição -->
+    <EditText
+        android:id="@+id/editDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Descrição do Desafio"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Campo Duração -->
+    <EditText
+        android:id="@+id/editDuracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Duração (em dias)"
+        android:inputType="number"
+        android:textColor="#AB5F5F"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Botão para Salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Salvar Desafio" />
+</LinearLayout>
